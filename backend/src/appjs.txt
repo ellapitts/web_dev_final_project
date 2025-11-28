@@ -1,0 +1,3 @@
+/ creates and configures Express
+// attaches routes
+// goal: wire together core backend building blocks 

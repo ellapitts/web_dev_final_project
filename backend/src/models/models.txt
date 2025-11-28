@@ -1,0 +1,13 @@
+/ contains Mongoose Schemas for the different user environmment such as:
+    // user
+       board
+       movie items
+       comments
+
+/ defines data structures and relationships that the backend will use to interact with the database
+
+user js:
+// mongoose model : application users
+// there will be 3 different user roles: 1.observer, 2.creator, 3.anonymous
+// each role will have different permissions and access levels
+// which include owning boards, likes, reviews

@@ -1,0 +1,5 @@
+/ will contain controller functions
+ that handles:
+    // HTTP requests
+// translate incoming api calls into actios on the domain logic 
+    // enforce validation and response format for user

@@ -1,0 +1,2 @@
+// bootstraps the frontend application, initializes routing
+// main entry point for the client side code

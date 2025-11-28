@@ -1,0 +1,9 @@
+/ contains all backend source code organized by responsibility and goals
+    //  configuration
+        models
+        services
+        controllers
+        routes
+        middleware
+        utl
+/ core location for the server structure for the application and it runs when the backend starts

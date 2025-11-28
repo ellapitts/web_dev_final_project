@@ -1,0 +1,2 @@
+// folder will hold source code, organize into views, components, routing, services, states, assets
+// responsible for the structure and behavior of the user facing interface

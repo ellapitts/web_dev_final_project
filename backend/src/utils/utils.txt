@@ -1,0 +1,6 @@
+// contains helper functions 
+        // response builders
+           validators
+           helpers
+
+// goal: keep generic logic seoarate from domain-specific code 

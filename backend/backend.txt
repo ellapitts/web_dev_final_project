@@ -1,0 +1,2 @@
+/ backend folder hosts the Node/Express server and all API-related logic
+/ coordinates routing, data models, and services to fulfill the course’s full-stack and REST requirements

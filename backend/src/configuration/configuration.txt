@@ -1,0 +1,6 @@
+/ holds config files
+    // database connection
+       environment variable loading
+
+/ contral location for setup related flows
+    // parts of the app will reuse and utilize the config functions here

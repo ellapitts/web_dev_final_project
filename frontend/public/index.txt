@@ -1,0 +1,2 @@
+// will contain static assets, base html shell
+// where browser will initially loads web app before handing over to JS for routing

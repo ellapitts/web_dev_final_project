@@ -1,0 +1,2 @@
+// declares backend dependencies for node / npm
+// used to install libraries and run dev commands

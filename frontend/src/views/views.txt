@@ -1,0 +1,10 @@
+// will hold page level view modules
+                            // Home
+                               Login
+                               Sign Up
+                               Profile
+                               Search/Dashboard
+                               Admin/Account
+
+
+// define what each route will render

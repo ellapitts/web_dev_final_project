@@ -1,0 +1,6 @@
+// stores mw for
+                authentication 
+                authorization
+                error handling
+
+                //allows reusable logic to be aoolied 

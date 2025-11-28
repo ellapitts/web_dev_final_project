@@ -1,0 +1,2 @@
+// defines Express route modules that will map the url and hhtp to the controller functions
+// organizes api, ensure url correlates correctly with actions and entitites 

@@ -1,0 +1,89 @@
+website name ideas:
+
+___
+notes:
+
+pages notes:
+Page 1 – Landing (anonymous / welcome)
+
+Route: /
+
+Content: app name, short description, “Sign in”, “Sign up”, and “Browse/search” CTA.
+
+Purpose: introduce the app and let anonymous users start searching or create an account.
+
+Page 2 – Sign in
+
+Route: /login
+
+Content: email, password fields, “Sign in” button, link to sign up.
+
+Purpose: existing users log in and are redirected to either /search or /profile.
+
+Page 3 – Search / Results grid
+
+Route: /search and /search?q={term}
+
+Content: search bar at top, grid of movie cards underneath; each card has poster + title.
+
+Purpose: let users search TMDB and visually browse results.
+
+Page 4 – Account layout / Profile (Account view)
+Route: /profile
+
+Content: user info header, maybe stats, tabs or sections; links to “Your boards”.
+
+Purpose: main signed‑in home for the user’s account.
+
+Page 5 – Profile boards layout (Boards view)
+
+Route: /boards and /boards/:boardId
+
+Content: grid of board cards (Profile → Boards); each board links to a detail page with its movies and a big “+” button to add content.
+
+Purpose: show and manage boards/collections for the user.
+
+Page 6 – Sign up with roles
+
+Route: /register
+
+Content: sign‑up form plus role selection:
+
+User 1 (Observer) – search & view.
+
+User 2 (Creator) – create boards, interact.
+
+User 3 (Admin) – manage/moderate.
+
+Purpose: create a new account and assign an initial role.
+
+user notes:
+User 1 – Observer / Consumer
+
+Has an ID, goal is to search.
+
+Can: view movies, search, see boards, read comments.
+
+Sees basic flow: sign in → search → movie cards grid → movie details.
+
+User 2 – Creator / Curator
+
+Has an ID, goal is to create/collect boards.
+
+Can: everything Observer can, plus create boards, add movies to boards, comment.
+
+Flow in notes:
+
+Sign in → Profile → “Create board” page (name + description) → board view → add movies from search.
+
+User 3 – Must sign up to interact (Anonymous / gate)
+
+No ID at first, mainly browsing.
+
+Can view/search but cannot like, rate, or save.
+
+Flow in notes:
+
+Anonymous goes to search/results → movie details.
+
+When trying to rate/like/comment, UI says “create an account to interact” and sends them to sign‑up.

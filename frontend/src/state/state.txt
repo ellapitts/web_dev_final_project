@@ -1,0 +1,2 @@
+// contains state management utilities for the current user, roles, client side data
+// coordiunates how the state is stored and updated across the application

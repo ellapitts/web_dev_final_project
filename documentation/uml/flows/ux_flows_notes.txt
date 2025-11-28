@@ -1,0 +1,36 @@
+UX flows digitized
+Observer flow
+
+Open /login → sign in as User 1.
+
+Redirect to /search.
+
+Type query → /search?q=term results grid.
+
+Click a card → /movies/:tmdbId details page.
+
+Can read info and comments, see boards, but no create actions.
+
+Creator flow – create board & add movies
+
+Open /login → sign in as User 2.
+
+Redirect to /profile.
+
+Click “Boards” → /boards with list of their boards.
+
+Click “+ New board” → board creation form → /boards/:boardId.
+
+From this board, click “Add movies” → go to /search.
+
+Search, open movie details, choose “Add to board” → select board → movie appears in that board.
+
+Anonymous → sign‑up flow
+
+Land on / (landing) and click “Browse” → /search.
+
+Search and open /movies/:tmdbId.
+
+Try to like/rate/comment → see message “Create an account to do this” with button to /register.
+
+Fill sign‑up (choose role) → submit → redirected back to the same movie page with interaction enabled.

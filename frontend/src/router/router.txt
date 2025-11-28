@@ -1,0 +1,2 @@
+// contains the client side routing logic that will map URLs to views
+// goal: ensure app state is encoded in the URL so when its refreshed it preserves the same content

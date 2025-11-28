@@ -1,0 +1,38 @@
+
+classDiagram
+    class User {
+      id
+      email
+      passwordHash
+      displayName
+      role  // OBSERVER, CREATOR, ADMIN
+    }
+
+    class Movie {
+      id
+      tmdbId
+      title
+      posterUrl
+    }
+
+    class Board {
+      id
+      name
+      description
+      visibility
+    }
+
+    class BoardMovie {
+      id
+      addedAt
+    }
+
+    class Review {
+      id
+      rating
+      body
+    }
+
+    class Like {
+      id
+    }

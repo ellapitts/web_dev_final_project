@@ -1,0 +1,2 @@
+// frontend folder hosts the client application that users interact with
+// responsible for rendering pages, responding to user events, calling backend apis

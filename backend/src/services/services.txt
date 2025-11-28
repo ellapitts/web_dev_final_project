@@ -1,0 +1,3 @@
+/ will hold service modules that encapsulate the platform/user experience logic and
+the communication between models, api, and controllers
+
